@@ -1037,7 +1037,7 @@ func (cs *State) enterNewRound(height int64, round int32) {
 				cstypes.RoundStepNewRound)
 		}
 	} else {
-		cs.enterPropose(height, round)
+		//cs.enterPropose(height, round)
 	}
 }
 
